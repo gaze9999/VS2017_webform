@@ -1,11 +1,16 @@
+#when it done
+Account/*
+
 App_Data/*
 bin/*
 Models/*
 obj/*
 Properties/*
+Scripts/*
 
+# no go
 *.user
 *.csproj
+*.config
 
-Web.Debug.config
-Web.Release.config
+!Web.config
