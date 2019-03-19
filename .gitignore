@@ -1,0 +1,11 @@
+App_Data/*
+bin/*
+Models/*
+obj/*
+Properties/*
+
+*.user
+*.csproj
+
+Web.Debug.config
+Web.Release.config
