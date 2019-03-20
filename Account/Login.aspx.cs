@@ -42,7 +42,7 @@ namespace test2.Account
                 }
                 else
                 {
-                    FailureText.Text = "Invalid username or password";
+                    FailureText.Text = "使用者信箱或密碼錯誤";
                 }
             }
         }

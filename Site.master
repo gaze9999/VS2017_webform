@@ -17,17 +17,17 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    My ASP.NET Application
+                    Web Form Test
                 </h1>
             </div>
             <div class="loginDisplay">
 
                 <asp:Panel ID="panelLogin" runat="server" Visible="false">
-                <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a>
+                <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">登入</a>
                 </asp:Panel>
                 <asp:Panel ID="panelLogout" runat="server" Visible="false">
-                        Welcome <span class="bold">  <asp:Literal ID="LoginName" runat="server"></asp:Literal></span>!
-                    <asp:LinkButton ID="LnkLogout" runat="server" onclick="LnkLogout_Click">Logout</asp:LinkButton>
+                        <span class="bold">  <asp:Literal ID="LoginName" runat="server"></asp:Literal></span> 已登入!
+                    <asp:LinkButton ID="LnkLogout" runat="server" onclick="LnkLogout_Click">登出</asp:LinkButton>
                 </asp:Panel>
 
             </div>

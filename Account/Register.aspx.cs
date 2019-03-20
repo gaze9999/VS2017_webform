@@ -45,7 +45,7 @@ namespace test2.Account
                     try
                     {
                         cmd.ExecuteNonQuery();
-                        ErrorMessage.Text = "Registered successfully.";
+                        ErrorMessage.Text = "註冊成功";
                     }
                     catch (Exception ex)
                     {
