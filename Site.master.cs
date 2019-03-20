@@ -30,7 +30,7 @@ namespace test2
             Session.Abandon();
             panelLogin.Visible = true;
             panelLogout.Visible = false;
-            Response.Redirect("~/WebForm1.aspx", false);
+            Response.Redirect("~/Default.aspx", false);
         }
     }
 }
