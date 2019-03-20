@@ -10,6 +10,6 @@
 namespace test2 {
     
     
-    public partial class Default {
+    public partial class MainSite {
     }
 }
