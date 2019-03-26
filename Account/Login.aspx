@@ -7,7 +7,7 @@
         Log In
     </h2>
     <p>
-        輸入您的使用者信箱及密碼<br>
+        輸入您的使用者信箱及密碼<br/>
         或是點此<asp:HyperLink ID="RegisterHyperLink" runat="server" EnableViewState="false">註冊</asp:HyperLink>
     </p>
   
