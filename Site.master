@@ -28,6 +28,7 @@
                 <asp:Panel ID="panelLogout" runat="server" Visible="false">
                         <span class="bold">  <asp:Literal ID="LoginName" runat="server"></asp:Literal></span> 已登入!
                     <asp:LinkButton ID="LnkLogout" runat="server" onclick="LnkLogout_Click">登出</asp:LinkButton>
+                    <asp:LinkButton ID="ChgPasswd" runat="server" onclick="ChgPasswd_Click">更換密碼</asp:LinkButton>
                 </asp:Panel>
 
             </div>
@@ -35,6 +36,7 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
                     </Items>
                 </asp:Menu>
             </div>
