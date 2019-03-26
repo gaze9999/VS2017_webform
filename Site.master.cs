@@ -32,5 +32,14 @@ namespace test2
             panelLogout.Visible = false;
             Response.Redirect("~/Default.aspx", false);
         }
+
+        protected void ChgPasswd_Click(object sender, EventArgs e)
+        {
+            panelLogin.Visible = false;
+            panelLogout.Visible = true;
+            Response.Redirect("~/Account/ChangePassword.aspx", true);
+        }
+
+        
     }
 }
